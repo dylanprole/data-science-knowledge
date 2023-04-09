@@ -24,7 +24,7 @@ Repo containing all knowledge required for undergrad degree in data science.
 - 361 intro to machine learning
 
 ## stats
-- 101 intro to stats
+- 101 intro to statistics
 - 125 probability and applications
 - 201 data analysis
 - 210 statistical theory
