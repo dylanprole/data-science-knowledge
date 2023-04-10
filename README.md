@@ -75,16 +75,17 @@ I Introduction to Algorithm Analysis
 3.5 Hash tables
 3.6 Notes
 
-II Introduction to Graph Algorithms 81
-4 The Graph Abstract Data Type 83
-4.1 Basic definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
-4.2 Digraphs and data structures . . . . . . . . . . . . . . . . . . . . . . . . 88
-4.3 Implementation of digraph ADT operations . . . . . . . . . . . . . . . . 90
-4.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
-5 Graph Traversals and Applications 93
-5.1 Generalities on graph traversal . . . . . . . . . . . . . . . . . . . . . . . 93
-5.2 DFS and BFS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
-5.3 Additional properties of depth-first search . . . . . . . . . . . . . . . . . 99
+II Introduction to Graph Algorithms
+
+4 The Graph Abstract Data Type
+4.1 Basic definitions
+4.2 Digraphs and data structures
+4.3 Implementation of digraph ADT operations
+
+5 Graph Traversals and Applications
+5.1 Generalities on graph traversal
+5.2 DFS and BFS
+5.3 Additional properties of depth-first search
 5.4 Additional properties of breadth-first search
 5.5 Priority-first search
 5.6 Acyclic digraphs and topological ordering
@@ -92,33 +93,34 @@ II Introduction to Graph Algorithms 81
 5.8 Cycles
 5.9 Maximum matchings
 5.10 Notes
-6 Weighted Digraphs and Optimization Problems 121
+
+6 Weighted Digraphs and Optimization Problems
 6.1 Weighted digraphs
-6.2 Distance and diameter in the unweighted case . . . . . . . . . . . . . . 122
-6.3 Single-source shortest path problem . . . . . . . . . . . . . . . . . . . . 123
-6.4 All-pairs shortest path problem . . . . . . . . . . . . . . . . . . . . . . . 129
-6.5 Minimum spanning tree problem . . . . . . . . . . . . . . . . . . . . . . 132
-6.6 Hard graph problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
-6.7 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
-III Introduction to Formal Languages 137
-7 An Introduction to Automata 139
-7.1 Deterministic finite-state machines . . . . . . . . . . . . . . . . . . . . . 139
-7.2 Nondeterministic finite-state machines . . . . . . . . . . . . . . . . . . 143
-7.3 Recognition capabilities of NFAs and DFAs . . . . . . . . . . . . . . . . 146
-7.4 Regular expressions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 148
-7.5 Regular sets and finite-state automata . . . . . . . . . . . . . . . . . . . 150
-7.6 Minimizing deterministic finite-state machines . . . . . . . . . . . . . . 154
-7.7 String searching algorithms . . . . . . . . . . . . . . . . . . . . . . . . . 157
-7.8 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 162
-8 An Introduction to Grammars and Parsing 163
-8.1 A grammar for arithmetic expressions . . . . . . . . . . . . . . . . . . . 163
-8.2 A grammar for Java statements . . . . . . . . . . . . . . . . . . . . . . . 165
-8.3 Parse trees . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 166
-8.4 Ambiguity and the design of grammars . . . . . . . . . . . . . . . . . . . 168
-8.5 Constructing parse trees . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
-8.6 Template for building recursive descent parsers . . . . . . . . . . . . . . 172
-8.7 Computational power of grammars . . . . . . . . . . . . . . . . . . . . . 175
-8.8 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177
+6.2 Distance and diameter in the unweighted case
+6.3 Single-source shortest path problem
+6.4 All-pairs shortest path problem
+6.5 Minimum spanning tree problem
+6.6 Hard graph problems
+
+III Introduction to Formal Languages
+
+7 An Introduction to Automata
+7.1 Deterministic finite-state machines
+7.2 Nondeterministic finite-state machines
+7.3 Recognition capabilities of NFAs and DFAs
+7.4 Regular expressions
+7.5 Regular sets and finite-state automata
+7.6 Minimizing deterministic finite-state machines
+7.7 String searching algorithms
+
+8 An Introduction to Grammars and Parsing
+8.1 A grammar for arithmetic expressions
+8.2 A grammar for Java statements
+8.3 Parse trees
+8.4 Ambiguity and the design of grammars
+8.5 Constructing parse trees
+8.6 Template for building recursive descent parsers
+8.7 Computational power of grammars
 
 ####  225 discrete structs math compsc 
 
@@ -140,10 +142,15 @@ III Introduction to Formal Languages 137
 
 ####  320 applied algorithmics 
 
-greedy, divide/conquer, dynamic programming, exhaustive search
-
-Algorithm design techniques: Greedy, Divide-Conquer, Dynamic Programming, Network Flow, Randomization
-NP-completeness/hardness and intractability
+Algorithm design techniques: 
+- Greedy
+- Divide-Conquer
+- Dynamic Programming
+- Network Flow
+- Exhaustive Search
+- Randomization
+- NP-completeness
+- hardness and intractability
 
 ####  351 fundamentals of db systems
 
@@ -160,7 +167,18 @@ Distributed Data
 
 ####  361 intro to machine learning
 
-This course provides a broad introduction to machine learning. Topics include: (i) Supervised learning (decision trees, support vector machines, neural networks). (ii) Unsupervised learning (clustering, association rule mining, anomaly detection). (iii) fundamental practices in machine learning (bias/variance theory)
+1 Supervised learning 
+1.1 decision trees
+1.2 support vector machines
+1.3 neural networks)
+
+2 Unsupervised learning:
+2.1 clustering
+2.2 association rule mining
+2.3 anomaly detection
+
+3 fundamental practices in machine learning:
+3.1 bias/variance theory
 
 ## stats
 #### 101 intro to statistics
