@@ -3,7 +3,7 @@ Repo containing all knowledge required for undergrad degree in data science.
 
 ## cert of proficiency
 ### compsci 
-- 220 algo and data structures
+#### 220 algo and data structures
 - 320 applied algorithmics
 - 762 advanced machine learning
 ### stats
