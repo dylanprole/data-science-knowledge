@@ -77,22 +77,22 @@ I Introduction to Algorithm Analysis
 
 II Introduction to Graph Algorithms
 
-4 The Graph Abstract Data Type
-4.1 Basic definitions
-4.2 Digraphs and data structures
-4.3 Implementation of digraph ADT operations
+4. The Graph Abstract Data Type
+4.1. Basic definitions
+4.2. Digraphs and data structures
+4.3. Implementation of digraph ADT operations
 
-5 Graph Traversals and Applications
-5.1 Generalities on graph traversal
-5.2 DFS and BFS
-5.3 Additional properties of depth-first search
-5.4 Additional properties of breadth-first search
-5.5 Priority-first search
-5.6 Acyclic digraphs and topological ordering
-5.7 Connectivity
-5.8 Cycles
-5.9 Maximum matchings
-5.10 Notes
+5. Graph Traversals and Applications
+5.1. Generalities on graph traversal
+5.2. DFS and BFS
+5.3. Additional properties of depth-first search
+5.4. Additional properties of breadth-first search
+5.5. Priority-first search
+5.6. Acyclic digraphs and topological ordering
+5.7. Connectivity
+5.8. Cycles
+5.9. Maximum matchings
+5.10. Notes
 
 6 Weighted Digraphs and Optimization Problems
 6.1 Weighted digraphs
