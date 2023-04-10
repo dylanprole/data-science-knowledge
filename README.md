@@ -25,37 +25,100 @@ Repo containing all knowledge required for undergrad degree in data science.
 ####  120 mathematics for compsci
 1. Integers, primes and divisibility, modular arithmetic.
 2. Sets and strings. 
-3.  Basics of combinatorics and probability.
+3. Basics of combinatorics and probability.
 4. Introduction to algorithms and their running time, functions, and limit techniques. 
 5. Introduction to graph theory. 
 6. Direct proofs, proof by cases, proof by contradiction, proof by construction, and proof by induction.
 
 ####  130 intro to software fundame
 
-Topic 1: Python revision
-Topic 2: Software maintenance, modularity and testing
-Topic 3: Exceptions
-Topic 4: Complexity of programs; sorting and searching
-Topic 5: Abstraction; Classes, and Abstract Data Types
-Topic 6: Recursion
-Topic 7: Stacks and queues
-Topic 8: Linked lists
-Topic 9: Hashing
-Topic 10: Trees
-Topic 11: Binary Search Trees
-Topic 12: Priority Queues and Heaps
+1. Python revision
+2. Software maintenance, modularity and testing
+3. Exceptions
+4. Complexity of programs; sorting and searching
+5. Abstraction; Classes, and Abstract Data Types
+6. Recursion
+7. Stacks and queues
+8. Linked lists
+9. Hashing
+10. Trees
+11. Binary Search Trees
+12, Priority Queues and Heaps
 
 ####  220 algo and data structs 
+I Introduction to Algorithm Analysis
 
-1 What is Algorithm Analysis? 15 1.1 Efficiencyofalgorithms:firstexamples................... 16 1.2 Runningtimeforloopsandothercomputations . . . . . . . . . . . . . 20 1.3 “Big-Oh”,“Big-Theta”,and“Big-Omega”tools . . . . . . . . . . . . . . . 21 1.4 Timecomplexityofalgorithms ....................... 27 1.5 Basicrecurrencerelations .......................... 30 1.6 Capabilities and limitations of algorithm analysis . . . . . . . . . . . . . 36 1.7 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
-2 Efficiency of Sorting 39 2.1 Theproblemofsorting ............................ 39 2.2 Insertionsort.................................. 41 2.3 Mergesort.................................... 46 2.4 Quicksort.................................... 49 2.5 Heapsort . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 56 2.6 Dataselection ................................. 63 2.7 Lowercomplexityboundforsorting .................... 66 2.8 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 68
-3 Efficiency of Searching 69 3.1 Theproblemofsearching .......................... 69
+1 What is Algorithm Analysis?
+1.1 Efficiency of algorithms: first examples
+1.2 Running time for loops and other computations
+1.3 “Big-Oh”, “Big-Theta”, and “Big-Omega” tools
+1.4 Time complexity of algorithms
+1.5 Basic recurrence relations
+1.6 Capabilities and limitations of algorithm analysis
+1.7 Notes
 
-3.2 Sortedlistsandbinarysearch ........................ 72 3.3 Binarysearchtrees .............................. 77 3.4 Self-balancingbinaryandmultiwaysearchtrees . . . . . . . . . . . . . 82 3.5 Hashtables................................... 88 3.6 Notes......................................101
-II IntroductiontoGraphAlgorithms 103
-4 The Graph Abstract Data Type 104 4.1 Basicdefinitions................................104 4.2 Digraphsanddatastructures ........................110 4.3 ImplementationofdigraphADToperations . . . . . . . . . . . . . . . .114 4.4 Notes......................................116
-5 Graph Traversals and Applications 117 5.1 Generalitiesongraphtraversal .......................117 5.2 DFSandBFS..................................121 5.3 Additionalpropertiesofdepth-firstsearch . . . . . . . . . . . . . . . . . 124 5.4 Additionalpropertiesofbreadth-firstsearch. . . . . . . . . . . . . . . .129 5.5 Priority-firstsearch ..............................132 5.6 Acyclicdigraphsandtopologicalordering . . . . . . . . . . . . . . . . .133 5.7 Connectivity..................................138 5.8 Cycles......................................142 5.9 Maximummatchings.............................145 5.10 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 150
-6 Weighted Digraphs and Optimization Problems 151 6.1 Weighteddigraphs ..............................151 6.2 Distanceanddiameterintheunweightedcase . . . . . . . . . . . . . .153 6.3 Single-sourceshortestpathproblem ....................154 6.4 All-pairsshortestpathproblem .......................161 6.5 Minimumspanningtreeproblem......................164 6.6 Hardgraphproblems
+2 Efficiency of Sorting
+2.1 The problem of sorting
+2.2 Insertion sort
+2.3 Mergesort
+2.4 Quicksort
+2.5 Heapsort
+2.6 Data selection
+2.7 Lower complexity bound for sorting
+2.8 Note
+
+3 Efficiency of Searching
+3.1 The problem of searching
+3.2 Sorted lists and binary search
+3.3 Binary search trees
+3.4 Self-balancing binary and multiway search trees
+3.5 Hash tables
+3.6 Notes
+
+II Introduction to Graph Algorithms 81
+4 The Graph Abstract Data Type 83
+4.1 Basic definitions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
+4.2 Digraphs and data structures . . . . . . . . . . . . . . . . . . . . . . . . 88
+4.3 Implementation of digraph ADT operations . . . . . . . . . . . . . . . . 90
+4.4 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 92
+5 Graph Traversals and Applications 93
+5.1 Generalities on graph traversal . . . . . . . . . . . . . . . . . . . . . . . 93
+5.2 DFS and BFS . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97
+5.3 Additional properties of depth-first search . . . . . . . . . . . . . . . . . 99
+5.4 Additional properties of breadth-first search
+5.5 Priority-first search
+5.6 Acyclic digraphs and topological ordering
+5.7 Connectivity
+5.8 Cycles
+5.9 Maximum matchings
+5.10 Notes
+6 Weighted Digraphs and Optimization Problems 121
+6.1 Weighted digraphs
+6.2 Distance and diameter in the unweighted case . . . . . . . . . . . . . . 122
+6.3 Single-source shortest path problem . . . . . . . . . . . . . . . . . . . . 123
+6.4 All-pairs shortest path problem . . . . . . . . . . . . . . . . . . . . . . . 129
+6.5 Minimum spanning tree problem . . . . . . . . . . . . . . . . . . . . . . 132
+6.6 Hard graph problems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 135
+6.7 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136
+III Introduction to Formal Languages 137
+7 An Introduction to Automata 139
+7.1 Deterministic finite-state machines . . . . . . . . . . . . . . . . . . . . . 139
+7.2 Nondeterministic finite-state machines . . . . . . . . . . . . . . . . . . 143
+7.3 Recognition capabilities of NFAs and DFAs . . . . . . . . . . . . . . . . 146
+7.4 Regular expressions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 148
+7.5 Regular sets and finite-state automata . . . . . . . . . . . . . . . . . . . 150
+7.6 Minimizing deterministic finite-state machines . . . . . . . . . . . . . . 154
+7.7 String searching algorithms . . . . . . . . . . . . . . . . . . . . . . . . . 157
+7.8 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 162
+8 An Introduction to Grammars and Parsing 163
+8.1 A grammar for arithmetic expressions . . . . . . . . . . . . . . . . . . . 163
+8.2 A grammar for Java statements . . . . . . . . . . . . . . . . . . . . . . . 165
+8.3 Parse trees . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 166
+8.4 Ambiguity and the design of grammars . . . . . . . . . . . . . . . . . . . 168
+8.5 Constructing parse trees . . . . . . . . . . . . . . . . . . . . . . . . . . . 170
+8.6 Template for building recursive descent parsers . . . . . . . . . . . . . . 172
+8.7 Computational power of grammars . . . . . . . . . . . . . . . . . . . . . 175
+8.8 Notes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 177
 
 ####  225 discrete structs math compsc 
 
